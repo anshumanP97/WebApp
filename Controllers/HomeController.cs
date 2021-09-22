@@ -10,6 +10,9 @@ namespace TestWebAppForGit.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.a = "99999999999";
+            ViewBag.b = "88888888888";
+            ViewBag.c = "7777777777777";
             return View();
         }
 
