@@ -27,7 +27,12 @@ namespace TestWebAppForGit.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            return View();
+        }
+        public ActionResult Register()
+        {
+            ViewBag.username = "anshuman";
+            ViewBag.pass = "*****";
             return View();
         }
     }
