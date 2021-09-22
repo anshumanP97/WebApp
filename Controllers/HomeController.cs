@@ -35,5 +35,9 @@ namespace TestWebAppForGit.Controllers
             ViewBag.pass = "*****";
             return View();
         }
+        public ActionResult Login()
+        {
+            return View();
+        }
     }
 }
