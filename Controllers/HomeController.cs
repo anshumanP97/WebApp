@@ -16,7 +16,8 @@ namespace TestWebAppForGit.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            ViewBag.total = 555555555;
+            ViewBag.t = 0000000;
             return View();
         }
 
